@@ -1,0 +1,89 @@
+.main {
+    position: absolute;
+    width: 1440px;
+    height: auto;
+    top: 3125px;
+    left: 3px;
+    padding: 0px 165px 0px 165px;
+    gap: 153px;
+    display: flex;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.aboutUs {
+    width: 278px;
+    height: 259px;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 36.8px;
+    color: #19182580;
+    display: flex;
+    margin-top: 16px;
+}
+
+.icons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -4rem;
+    color: #5D50C6;
+}
+
+.icons:hover {
+    cursor: pointer;
+    color: goldenrod;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: auto;
+    height: auto;
+    gap: 121px;
+}
+
+.columns {
+    width: auto;
+    height: auto;
+    gap: 16px;
+}
+
+.right .columns p {
+    width: 101px;
+    height: 28px;
+    font-family: Nunito Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #191825;
+}
+
+.right .columns ul{
+    list-style: none;
+}
+
+.right .columns ul li{
+    margin: 25px -10px 0px 0px;
+    text-wrap: nowrap;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #191825BF;
+    ;
+}
